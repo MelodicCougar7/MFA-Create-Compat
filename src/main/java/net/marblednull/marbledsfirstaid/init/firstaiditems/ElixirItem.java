@@ -73,7 +73,7 @@ public class ElixirItem extends Item {
             tooltipComponents.add(Component.translatable("item.marbledsfirstaid.whenused.desc1").withStyle(ChatFormatting.GRAY));
             tooltipComponents.add(CommonComponents.space().append(Component.translatable("item.marbledsfirstaid.elixir.desc1")).withStyle(ChatFormatting.BLUE));
             tooltipComponents.add(CommonComponents.space().append(Component.translatable("item.marbledsfirstaid.elixir.desc2")).withStyle(ChatFormatting.BLUE));
-            tooltipComponents.add(CommonComponents.space().append(Component.translatable("item.marbledsfirstaid.elixir.desc2")).withStyle(ChatFormatting.BLUE));
+            tooltipComponents.add(CommonComponents.space().append(Component.translatable("item.marbledsfirstaid.elixir.desc3")).withStyle(ChatFormatting.BLUE));
         }
     }
 }
