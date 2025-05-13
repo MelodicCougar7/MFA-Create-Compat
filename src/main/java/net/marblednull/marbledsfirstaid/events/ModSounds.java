@@ -19,7 +19,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> PAIN_PILLS = registerSoundEvents("pain_pills");
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
-        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MarbledsFirstAid.MODID, name)));
+        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(MarbledsFirstAid.MODID, name)));
     }
 
     public static void register(IEventBus eventBus) {

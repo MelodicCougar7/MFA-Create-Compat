@@ -25,9 +25,9 @@ public class MarbledsFirstAid
 {
     public static final String MODID = "marbledsfirstaid";
 
-    public MarbledsFirstAid(FMLJavaModLoadingContext context)
+    public MarbledsFirstAid()
     {
-        IEventBus modEventBus = context.getModEventBus();
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         ModTabs.register(modEventBus);
