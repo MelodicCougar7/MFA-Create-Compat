@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "marbledsfirstaid:awkward_syringe"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    }
+  ],
+  "results": [
+    {
+      "item": "marbledsfirstaid:adrenaline_syringe"
+    }
+  ]
+}

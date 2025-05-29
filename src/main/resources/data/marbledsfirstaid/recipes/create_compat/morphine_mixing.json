@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "marbledsfirstaid:awkward_medicine_bottle"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "results": [
+    {
+      "item": "marbledsfirstaid:antidote"
+    }
+  ]
+}
